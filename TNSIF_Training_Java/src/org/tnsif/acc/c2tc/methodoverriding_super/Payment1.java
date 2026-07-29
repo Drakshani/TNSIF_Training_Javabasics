@@ -21,12 +21,10 @@ class Gpay extends Payment1
 		process();
 	}
 }
+     
 
 
-
-	
-
-	public static void main(String[] args) {
+     public static void main(String[] args) {
 		Gpay obj=new Gpay();
 		obj.CompleteTransaction();
 
